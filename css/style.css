@@ -43,7 +43,7 @@ body::before {
 }
 .scroll-color {
   color: #ff589b;
-  transform: 0.4s;
+  transition: 0.4s;
 }
 .scroll-color:hover {
   color: #ff136f;
