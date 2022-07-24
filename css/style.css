@@ -7,3 +7,17 @@
 .section-padding {
   padding: 100px 0;
 }
+body::before {
+  content: "";
+  display: block;
+  height: 60px;
+}
+::-webkit-scrollbar {
+  background-color: #e6545434;
+  border-radius: 10px;
+  width: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #dc3545;
+  border-radius: 10px;
+}
