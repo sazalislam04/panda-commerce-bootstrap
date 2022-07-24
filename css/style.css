@@ -4,6 +4,7 @@
     font-size: 17px;
   }
 }
+
 .section-padding {
   padding: 100px 0;
 }
@@ -13,11 +14,37 @@ body::before {
   height: 60px;
 }
 ::-webkit-scrollbar {
-  background-color: #e6545434;
+  background-color: #fceae8;
   border-radius: 10px;
   width: 0.8rem;
+  transition: 0.4s ease-in-out;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #dc3545;
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
   border-radius: 10px;
+  transition: 0.4s ease-in-out;
+}
+.categories img {
+  width: 100px;
+}
+.cat2 {
+  background: orchid;
+}
+.price {
+  color: #ff136f;
+}
+.btn-buy-now {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+.scroll-color {
+  color: #ff589b;
+  transform: 0.4s;
+}
+.scroll-color:hover {
+  color: #ff136f;
 }
